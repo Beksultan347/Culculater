@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: "Poppins";
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    background: rgb(39, 71, 114);
+}
+
+.calculater{
+    background: rgb(63, 62, 62);
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    margin: 100px 20% ;
+    border-radius: 13px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:0.5rem;
+}
+
+.input-container{
+    display: flex;
+    background: transparent;
+    padding: 20px;
+}
+
+.input-container input{
+    width: 100%;
+    font-size: 1.5rem;
+    background: transparent;
+    text-align: end;
+    color: white;
+}
+
+button{
+    background: rgb(92, 90, 90);
+    color: rgb(219, 218, 218);
+    font-size: 1.1rem;
+    padding: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background: rgb(126, 123, 123);
+}
